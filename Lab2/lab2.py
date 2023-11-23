@@ -20,6 +20,7 @@ NoiseFigure_ant = 2.4 # Коэффициент шума приемника BS [�
 NoiseFigure_at = 6 # коэффициент шума приемника пользователя [дБ]
 RequiredSINR_DL = 2 # Требуемое отношение SINR для DL [дБ]
 RequiredSINR_UL = 4 # Требуемое отношение SINR для UL [дБ]
+#ThermalNoise_ant = -174+10
 ThermalNoise_ant = -104 #тепловой шум приемника
 ThermalNoise_at = -101 #тепловой шум приемника
 RxSensBS = NoiseFigure_ant + ThermalNoise_ant + RequiredSINR_UL
@@ -153,10 +154,14 @@ line_1 = LineString(np.column_stack((d,mapl_ul)))
 line_2 = LineString(np.column_stack((d,PLd_w)))
 line_3 = LineString(np.column_stack((d,mapl_ul)))
 line_4 = LineString(np.column_stack((d,PLd_c)))
+line_5 = LineString(np.column_stack((d,mapl_ul)))
+line_6 = LineString(np.column_stack((d,PLd_u)))
 intersection = line_1.intersection(line_2)    
 intersection2 = line_3.intersection(line_4)
+intersection3 = line_5.intersection(line_6)
 plt.plot(*intersection.xy, 'ro')
 plt.plot(*intersection2.xy, 'ro')
+plt.plot(*intersection3.xy, 'ro')
 plt.show()
     
     
@@ -165,7 +170,8 @@ plt.show()
     
 
 Radius_U=678*10**-3
-Radius_cost=583*10**-3
+Radius_cost=5836*10**-3
+#Radius_cost=5836*10**-3
 
 
 #COST_231_UMiNLOS_Walfish()
