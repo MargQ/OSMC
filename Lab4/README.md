@@ -4,11 +4,11 @@
 1) Напишите программу на языке С/С++ для генерации
 последовательности Голда, используя схему:
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab3/Screenshots/shem.jpeg)
+![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/shem.jpeg)
 
 - порождающие полиномы x и y :
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab3/Screenshots/11.jpeg)
+![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/11.jpeg)
 
 2) Сделайте поэлементный циклический сдвиг последовательности и 
 посчитайте автокорреляцию исходной последовательности и 
@@ -17,17 +17,17 @@
 вычисленное значение автокорреляции.
 
 Полученная таблица
-![](https://github.com/MargQ/OSMC/tree/master/Lab3/Screenshots/1.jpeg)
+![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/1.jpeg)
 
 3) Сформируйте еще одну последовательность Голда, используя 
 схему из 1 пункта, такую что x=x+1, а y= у-5
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab3/Screenshots/22.jpeg)
+![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/22.jpeg)
 
 - функция автокорреляции в зависимости от величины задержки
 
 для исходной последовательности
-![](https://github.com/MargQ/OSMC/tree/master/Lab3/Screenshots/111.jpeg)
+![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/111.jpeg)
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab3/Screenshots/222.jpeg)
+![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/222.jpeg)
 
