@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define ST 31                                                                                        
 #define MAX 32
 
@@ -49,7 +48,7 @@ int main() {
     // Массивы для хранения оригинальной и сдвинутой последовательностей
     int origin[MAX];
     int move[MAX];
-    int gold[MAX];
+    //int gold[MAX];
 
     // Заполнение массива результатов операции XOR и сохранение оригинала
     for (int i = 0; i < MAX; i++) {
@@ -86,6 +85,5 @@ int main() {
         // replace
         replace(move, 1);
     }
-
     return 0;
 }
