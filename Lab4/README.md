@@ -8,7 +8,7 @@
 
 - порождающие полиномы x и y :
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/11.png)
+<img src = "Screenshots/11.png">
 
 2) Сделайте поэлементный циклический сдвиг последовательности и посчитайте автокорреляцию исходной последовательности и 
 сдвинутой. Сформируйте таблицу с битовыми значениями 
@@ -16,18 +16,15 @@
 вычисленное значение автокорреляции.
 
 Полученная таблица
-![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/1.png)
+<img src = "Screenshots/1.png">
 
 3) Сформируйте еще одну последовательность Голда, используя 
 схему из 1 пункта, такую что x=x+1, а y= у-5
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/22.png)
-
+<img src = "Screenshots/22.png">
 - функция автокорреляции в зависимости от величины задержки
 
-для исходной последовательности
+для исходной последовательности и измененной последовательности; для двух последовательностей
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/111.png)
-
-![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/222.png)
+<img src = "Screenshots/121.jpeg">
 
