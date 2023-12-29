@@ -4,7 +4,7 @@
 1) Напишите программу на языке С/С++ для генерации
 последовательности Голда, используя схему:
 
-![](https://github.com/MargQ/OSMC/tree/master/Lab4/Screenshots/shem.png)
+<img src = "Screenshots/shem.png">
 
 - порождающие полиномы x и y :
 
