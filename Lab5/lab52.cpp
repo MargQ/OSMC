@@ -11,7 +11,7 @@ int main() {
 
     int packet[PACKET_LENGTH + CRC_LENGTH] = {1,0,0,1,1,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0};
     int call_packet[PACKET_LENGTH + CRC_LENGTH];
-    int generator[] = {1, 1, 1, 1, 1, 1, 1, 1, 1}; // порождающий полином G для делителя: 10111011
+    int generator[] = {1, 1, 1, 1, 1, 1, 1, 1, 1}; // порождающий полином G для делителя: 11111111
     int i, j;
 
 
